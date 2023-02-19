@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(16, 245, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 245, 179, 1) 0%,
+    rgba(7, 158, 223, 0.8449579660965949) 49%,
+    rgba(6, 142, 57, 1) 100%
+  );
+}
+
+.cuerpo {
+  display: flex;
+}
+.cuerpo__foto {
+  margin-bottom: 2rem;
+}
+.cuerpo__texto-parrafo {
+  text-align: start;
+  width: 600px;
+  height: 400px;
+  font-size: 2rem;
+  margin: 4rem 5rem;
+}
+
+.cuerpo__imagen-img {
+  margin-right: 2rem auto;
+  width: 90%;
+}
+.img--alex {
+  margin-top: 3rem;
+}
+.encabezado {
+  margin: auto 2rem;
+}
+.encabezado__title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+  color: white;
+}
+.familia {
+  font-weight: bold;
+  font-style: italic;
+}
+.img__familia {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.img--laura {
+  margin: auto 5rem;
+  width: 100%;
+}
+
+.parrafo--laura {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+/* TODO: Empiezo con la card */
+
+.card {
+  margin: 3rem auto;
+  background-color: blue;
+  padding: 20px 10px;
+  margin: 80 auto;
+  width: 300px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: white;
+}
+.card__titulo {
+  margin: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.card__parrafo {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.card__img {
+  width: 100%;
+}
+.card__link {
+  font-size: 1.25rem;
+  text-decoration: none;
+  background: rgb(16, 245, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 245, 179, 1) 0%,
+    rgba(7, 151, 223, 0.8197478820629814) 49%,
+    rgba(6, 142, 57, 1) 100%
+  );
+  color: black;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
